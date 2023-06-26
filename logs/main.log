@@ -1,0 +1,45 @@
+[2023-06-23T10:24:50.062] [INFO] development - GET / RESPONSE: 200
+[2023-06-23T10:26:32.655] [INFO] development - GET /api/v1/datetime RESPONSE: 200
+[2023-06-23T10:26:41.522] [INFO] development - {
+  message: 'Not Found',
+  name: 'NotFoundError',
+  stack: 'NotFoundError: Not Found\n' +
+    '    at Object.throw (/home/aashrikaa/Documents/project/starthub-api/node_modules/koa/lib/context.js:97:11)\n' +
+    '    at /home/aashrikaa/Documents/project/starthub-api/node_modules/koa-json-error/lib/middleware.js:52:58\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)',
+  status: 404
+}
+[2023-06-23T10:26:41.524] [INFO] development - GET /api/v1/dhealth RESPONSE: 404
+[2023-06-23T10:26:50.434] [INFO] development - GET /api/v1/health RESPONSE: 200
+[2023-06-23T10:27:08.984] [INFO] development - {
+  message: 'Not Found',
+  name: 'NotFoundError',
+  stack: 'NotFoundError: Not Found\n' +
+    '    at Object.throw (/home/aashrikaa/Documents/project/starthub-api/node_modules/koa/lib/context.js:97:11)\n' +
+    '    at /home/aashrikaa/Documents/project/starthub-api/node_modules/koa-json-error/lib/middleware.js:52:58\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)',
+  status: 404
+}
+[2023-06-23T10:27:08.985] [INFO] development - GET /api/v1/healthhd RESPONSE: 404
+[2023-06-23T10:27:12.610] [INFO] development - {
+  name: 'Error',
+  message: 'ERROR',
+  stack: 'Error: ERROR\n' +
+    '    at /home/aashrikaa/Documents/project/starthub-api/src/routes/base.ts:45:11\n' +
+    '    at Generator.throw (<anonymous>)\n' +
+    '    at rejected (/home/aashrikaa/Documents/project/starthub-api/src/routes/base.ts:6:65)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)',
+  status: 500
+}
+[2023-06-23T10:27:12.610] [INFO] development - GET /api/v1/healthd RESPONSE: 500
+[2023-06-23T10:27:36.151] [INFO] development - {
+  name: 'Error',
+  message: 'ERROR',
+  stack: 'Error: ERROR\n' +
+    '    at /home/aashrikaa/Documents/project/starthub-api/src/routes/base.ts:45:11\n' +
+    '    at Generator.throw (<anonymous>)\n' +
+    '    at rejected (/home/aashrikaa/Documents/project/starthub-api/src/routes/base.ts:6:65)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)',
+  status: 500
+}
+[2023-06-23T10:27:36.152] [INFO] development - GET /api/v1/healthd RESPONSE: 500
